@@ -1,0 +1,17 @@
+{
+  "project_id": "habit-tracker",
+  "title": "学习习惯培养积分奖励系统",
+  "project_room_id": "!CosFhIdeZjQ7yLo3SC:matrix-local.hiclaw.io:18080",
+  "status": "active",
+  "workers": [
+    "pm-lei",
+    "architect-lin",
+    "backend-kai",
+    "frontend-qian",
+    "ui-sheji",
+    "qa-ceshi",
+    "devops-wei"
+  ],
+  "created_at": "2026-04-02T08:27:49Z",
+  "confirmed_at": "2026-04-02T08:45:00Z"
+}

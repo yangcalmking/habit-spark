@@ -1,0 +1,30 @@
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Java
+backend/target/
+backend/*.class
+backend/*.jar
+backend/.mvn/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+*.env
+.env.local
+
+# SQLite
+*.db
+*.db-journal
+
+# Uploads
+backend/uploads/

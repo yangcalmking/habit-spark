@@ -32,7 +32,7 @@
 
 ### Phase 2: 技术架构与数据库设计
 
-- [~] task-20260402-083002 — 技术架构设计文档（assigned: @architect-lin:matrix-local.hiclaw.io:18080, depends on: task-20260402-083000, task-20260402-083001:matrix-local.hiclaw.io:18080, depends on: task-20260402-083000）
+- [~] task-20260402-083002 — 技术架构设计文档 (加速中)（assigned: @architect-lin:matrix-local.hiclaw.io:18080, depends on: task-20260402-083000, task-20260402-083001:matrix-local.hiclaw.io:18080, depends on: task-20260402-083000）
   - Spec: /root/hiclaw-fs/shared/tasks/task-20260402-083002/spec.md
   - Result: /root/hiclaw-fs/shared/tasks/task-20260402-083002/result.md
   - **On REVISION_NEEDED**: return to task-20260402-083002
@@ -104,3 +104,5 @@
 - 2026-04-02T10:25:00Z: task-20260402-083000 completed by pm-lei. Phase 2 dispatched to architect-lin
 - 2026-04-02T10:04:00Z: Plan adjusted per pm-lei suggestion — architect-lin waits for ui-sheji completion before starting Phase 2
 - 2026-04-03T03:05:00Z: task-20260402-083001 (ui-sheji) 确认完成。进度追赶中。
+- 2026-04-03T03:05:00Z: 进度审查 — ui-sheji task-20260402-083001 已于7h前完成但未标记，已修正。architect-lin 加速中。
+- 2026-04-03T03:05:00Z: 进度审计发现 ui-sheji 产出已完成多时未标记。已修正。加速 Phase 2 跟进。

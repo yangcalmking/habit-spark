@@ -5,6 +5,11 @@ frontend/.vite/
 
 # Java
 backend/target/
+target/
+*.class
+*.jar
+*.war
+*.log
 backend/*.class
 backend/*.jar
 backend/.mvn/
@@ -13,6 +18,9 @@ backend/.mvn/
 .idea/
 .vscode/
 *.iml
+.settings/
+.classpath
+.project
 
 # OS
 .DS_Store

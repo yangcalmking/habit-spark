@@ -37,21 +37,21 @@
   - Result: /root/hiclaw-fs/shared/tasks/task-20260402-083002/result.md
   - **On REVISION_NEEDED**: return to task-20260402-083002
 
-- [~] task-20260402-083003 — 数据库建模与建表脚本（assigned: @architect-lin:matrix-local.hiclaw.io:18080, depends on: task-20260402-083000, task-20260402-083001, task-20260402-083002:matrix-local.hiclaw.io:18080, depends on: task-20260402-083002）
+- [x] task-20260402-083003 — 数据库建模与建表脚本（assigned: @architect-lin:matrix-local.hiclaw.io:18080, depends on: task-20260402-083000, task-20260402-083001, task-20260402-083002:matrix-local.hiclaw.io:18080, depends on: task-20260402-083002）
   - Spec: /root/hiclaw-fs/shared/tasks/task-20260402-083003/spec.md
   - Result: /root/hiclaw-fs/shared/tasks/task-20260402-083003/result.md
 
-- [~] task-20260402-083004 — RESTful API 接口设计文档（assigned: @architect-lin:matrix-local.hiclaw.io:18080, depends on: task-20260402-083000, task-20260402-083001, task-20260402-083003:matrix-local.hiclaw.io:18080, depends on: task-20260402-083002）
+- [x] task-20260402-083004 — RESTful API 接口设计文档（assigned: @architect-lin:matrix-local.hiclaw.io:18080, depends on: task-20260402-083000, task-20260402-083001, task-20260402-083003:matrix-local.hiclaw.io:18080, depends on: task-20260402-083002）
   - Spec: /root/hiclaw-fs/shared/tasks/task-20260402-083004/spec.md
   - Result: /root/hiclaw-fs/shared/tasks/task-20260402-083004/result.md
 
 ### Phase 3: 核心功能开发
 
-- [ ] task-20260402-083005 — 后端项目脚手架搭建（assigned: @backend-kai:matrix-local.hiclaw.io:18080, depends on: task-20260402-083002）
+- [x] task-20260402-083005 — 后端项目脚手架搭建（assigned: @backend-kai:matrix-local.hiclaw.io:18080, depends on: task-20260402-083002）
   - Spec: /root/hiclaw-fs/shared/tasks/task-20260402-083005/spec.md
   - Result: /root/hiclaw-fs/shared/tasks/task-20260402-083005/result.md
 
-- [ ] task-20260402-083006 — 学生端后端功能：认证、任务提交、积分查询（assigned: @backend-kai:matrix-local.hiclaw.io:18080, depends on: task-20260402-083003, task-20260402-083004, task-20260402-083005）
+- [x] task-20260402-083006 — 学生端后端功能：认证、任务提交、积分查询（assigned: @backend-kai:matrix-local.hiclaw.io:18080, depends on: task-20260402-083003, task-20260402-083004, task-20260402-083005）
   - Spec: /root/hiclaw-fs/shared/tasks/task-20260402-083006/spec.md
   - Result: /root/hiclaw-fs/shared/tasks/task-20260402-083006/result.md
 

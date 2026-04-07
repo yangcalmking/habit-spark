@@ -4,7 +4,7 @@
 
 ### 1.1 文档目的与范围
 
-本文档为**学习习惯培养积分奖励系统**的完整产品需求说明，采用 CS 架构设计，支持浏览器访问。系统专为上海四年级下学期 11 岁女生定制，围绕**课前预习、课后复习、作业规范、错题整理、自主阅读、时间管理**六大核心学习习惯培养，结合孩子**唱歌、手工、漫画、游乐场**四大兴趣爱好，通过正向积分激励机制促进习惯养成。
+本文档为**学习习惯培养积分奖励系统**的完整产品需求说明，采用 BS 架构设计，支持浏览器访问。系统专为上海四年级下学期 11 岁女生定制，围绕**课前预习、课后复习、作业规范、错题整理、自主阅读、时间管理**六大核心学习习惯培养，结合孩子**唱歌、手工、漫画、游乐场**四大兴趣爱好，通过正向积分激励机制促进习惯养成。
 
 文档涵盖系统的技术架构、功能需求、界面设计、数据模型等完整内容，作为开发团队实施依据、产品经理迭代参考、测试团队质量验证的核心文档。
 
@@ -43,7 +43,7 @@
 
 ### 2.2 产品定位与核心价值
 
-本产品定位为**专属定制化学习习惯养成积分管理系统**，采用 CS 架构、浏览器网页访问，专为上海四年级 11 岁女生打造。系统聚焦学习习惯培养、正向积分激励、兴趣化奖励兑换，是轻量化、易操作、纯线上的家庭教育辅助工具。
+本产品定位为**专属定制化学习习惯养成积分管理系统**，采用 BS 架构、浏览器网页访问，专为上海四年级 11 岁女生打造。系统聚焦学习习惯培养、正向积分激励、兴趣化奖励兑换，是轻量化、易操作、纯线上的家庭教育辅助工具。
 
 核心价值主张：
 
@@ -814,7 +814,7 @@ POST /api/task/submit
 
 ### 7.1 整体架构设计
 
-系统采用**CS 架构**（客户端 - 服务器架构），通过浏览器访问，整体架构设计如下：
+系统采用**BS 架构**（客户端 - 服务器架构），通过浏览器访问，整体架构设计如下：
 
 
 
@@ -868,7 +868,7 @@ POST /api/task/submit
 
 * **日志**：SLF4J + Logback
 
-**SQLite 配置示例**[(134)](https://blog.csdn.net/weixin_29302047/article/details/158517945)：
+**SQLite 配置示例**[(134)](https://blog.BSdn.net/weixin_29302047/article/details/158517945)：
 
 
 
@@ -910,7 +910,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 * **UI 组件库**：Element Plus（家长端）、自定义卡通组件（学生端）
 
-* **CSS 预处理器**：SCSS
+* **BSS 预处理器**：SBSS
 
 **技术架构优势**：
 
@@ -926,7 +926,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ### 7.4 数据库备份方案
 
-**自动备份策略**[(8)](https://blog.csdn.net/z_344791576/article/details/151690327)：
+**自动备份策略**[(8)](https://blog.BSdn.net/z_344791576/article/details/151690327)：
 
 
 
@@ -1343,17 +1343,17 @@ npm run build
 
 **文档结束**
 
-本产品需求文档完整描述了学习习惯培养积分奖励系统的功能需求、技术架构、界面设计等内容。系统采用 CS 架构、浏览器访问，专为上海四年级 11 岁女生定制，通过科学的积分激励机制促进学习习惯养成。文档为后续的开发、测试、部署提供了清晰的指导，确保系统能够满足用户需求并稳定运行。
+本产品需求文档完整描述了学习习惯培养积分奖励系统的功能需求、技术架构、界面设计等内容。系统采用 BS 架构、浏览器访问，专为上海四年级 11 岁女生定制，通过科学的积分激励机制促进学习习惯养成。文档为后续的开发、测试、部署提供了清晰的指导，确保系统能够满足用户需求并稳定运行。
 
 **参考资料&#x20;**
 
-\[1] SpringBoot+SQLite实战:5分钟搞定轻量级数据库集成(附完整代码)-CSDN博客[ https://blog.csdn.net/weixin\_29302047/article/details/158517945](https://blog.csdn.net/weixin_29302047/article/details/158517945)
+\[1] SpringBoot+SQLite实战:5分钟搞定轻量级数据库集成(附完整代码)-BSDN博客[ https://blog.BSdn.net/weixin\_29302047/article/details/158517945](https://blog.BSdn.net/weixin_29302047/article/details/158517945)
 
 \[2] 🧪 RESTful API with Java and Spring Boot[ https://github.com/nanotaboada/java.samples.spring.boot/blob/master/README.md](https://github.com/nanotaboada/java.samples.spring.boot/blob/master/README.md)
 
 \[3] Spring Boot With SQLite[ https://www.baeldung.com/spring-boot-sqlite](https://www.baeldung.com/spring-boot-sqlite)
 
-\[4] springboot项目连接sqlite，我把.db文件放在resource的db目录下，springboot配置文件中的url要怎么写 - CSDN文库[ https://wenku.csdn.net/answer/3ugm9ngib4](https://wenku.csdn.net/answer/3ugm9ngib4)
+\[4] springboot项目连接sqlite，我把.db文件放在resource的db目录下，springboot配置文件中的url要怎么写 - BSDN文库[ https://wenku.BSdn.net/answer/3ugm9ngib4](https://wenku.BSdn.net/answer/3ugm9ngib4)
 
 \[5] GitHub - amafoas/SpringBoot-SQLite-CRUD: CRUD application developed using Spring Boot and SQLite. It provides a RESTful API to manage a user database.[ https://github.com/amafoas/SpringBoot-SQLite-CRUD](https://github.com/amafoas/SpringBoot-SQLite-CRUD)
 
@@ -1361,13 +1361,13 @@ npm run build
 
 \[7] Ecommerce Demo using Spring Boot and SQLite[ https://github.com/opcruz/springboot-sqlite](https://github.com/opcruz/springboot-sqlite)
 
-\[8] SQLite备份:5个关键策略，90%的开发者都忽略了!\_git 可以备份 sqlite吗-CSDN博客[ https://blog.csdn.net/z\_344791576/article/details/151690327](https://blog.csdn.net/z_344791576/article/details/151690327)
+\[8] SQLite备份:5个关键策略，90%的开发者都忽略了!\_git 可以备份 sqlite吗-BSDN博客[ https://blog.BSdn.net/z\_344791576/article/details/151690327](https://blog.BSdn.net/z_344791576/article/details/151690327)
 
 \[9] SQLite Backup API[ https://www.sqlite.org/backup.html](https://www.sqlite.org/backup.html)
 
 \[10] Backup and Recovery Security in SQLite - Tutorial[ https://www.unrepo.com/sqlite/backup-and-recovery-security-in-sqlite-tutorial](https://www.unrepo.com/sqlite/backup-and-recovery-security-in-sqlite-tutorial)
 
-\[11] Use Cloudflare R2 for Backup Storage[ https://github.com/sociotechnica-org/work-squared/blob/main/docs/adrs/003-backup-storage-strategy.md](https://github.com/sociotechnica-org/work-squared/blob/main/docs/adrs/003-backup-storage-strategy.md)
+\[11] Use Cloudflare R2 for Backup Storage[ https://github.com/sociotechnica-org/work-squared/blob/main/doBS/adrs/003-backup-storage-strategy.md](https://github.com/sociotechnica-org/work-squared/blob/main/doBS/adrs/003-backup-storage-strategy.md)
 
 \[12] Automating SQLite Maintenance: Backups, Vacuuming, and Performance Tuning[ https://www.sqliteforum.com/p/automating-sqlite-maintenance-backups](https://www.sqliteforum.com/p/automating-sqlite-maintenance-backups)
 
@@ -1381,7 +1381,7 @@ npm run build
 
 \[17] How To Corrupt An SQLite Database File[ https://www.sqlite.org/howtocorrupt.html](https://www.sqlite.org/howtocorrupt.html)
 
-\[18] Alexander Storage - Backup and Disaster Recovery[ https://github.com/neuralforgeone/alexander-storage/blob/main/docs/operations/backup-dr.md](https://github.com/neuralforgeone/alexander-storage/blob/main/docs/operations/backup-dr.md)
+\[18] Alexander Storage - Backup and Disaster Recovery[ https://github.com/neuralforgeone/alexander-storage/blob/main/doBS/operations/backup-dr.md](https://github.com/neuralforgeone/alexander-storage/blob/main/doBS/operations/backup-dr.md)
 
 \[19] \[TESTING]\[OPERATIONS]: Backup and Restore Manual Test Plan (SQLite, PostgreSQL, Disaster Recovery) #2459[ https://github.com/IBM/mcp-context-forge/issues/2459](https://github.com/IBM/mcp-context-forge/issues/2459)
 
@@ -1391,7 +1391,7 @@ npm run build
 
 \[22] Design and Implementation of Student Dormitory Management System Based on Vue.js[ https://dl.acm.org/doi/pdf/10.1145/3745238.3745385](https://dl.acm.org/doi/pdf/10.1145/3745238.3745385)
 
-\[23] vue 桌面端 - CSDN文库[ https://wenku.csdn.net/answer/1zxrqmgcdk](https://wenku.csdn.net/answer/1zxrqmgcdk)
+\[23] vue 桌面端 - BSDN文库[ https://wenku.BSdn.net/answer/1zxrqmgcdk](https://wenku.BSdn.net/answer/1zxrqmgcdk)
 
 \[24] Quick Start[ https://vuejs.org/guide/quick-start](https://vuejs.org/guide/quick-start)
 
@@ -1405,7 +1405,7 @@ npm run build
 
 \[29] Vue.js and Electron: Building Desktop Applications with Web Technologies[ https://clouddevs.com/vue/electron/](https://clouddevs.com/vue/electron/)
 
-\[30] 一款基于 Electron + Vue 3 的本地旅行地图相册桌面应用-CSDN博客[ https://blog.csdn.net/weixin\_42009068/article/details/159214989](https://blog.csdn.net/weixin_42009068/article/details/159214989)
+\[30] 一款基于 Electron + Vue 3 的本地旅行地图相册桌面应用-BSDN博客[ https://blog.BSdn.net/weixin\_42009068/article/details/159214989](https://blog.BSdn.net/weixin_42009068/article/details/159214989)
 
 \[31] Desktop[ https://vuejsexamples.com/tag/desktop/](https://vuejsexamples.com/tag/desktop/)
 
@@ -1417,7 +1417,7 @@ npm run build
 
 \[35] C# Vue Desktop App Project Template | Vue Desktop[ https://www.vuedesktop.com/](https://www.vuedesktop.com/)
 
-\[36] 从零到一:Electron + Vue 3 跨平台桌面应用开发完整指南\_electron vue3-CSDN博客[ https://blog.csdn.net/mmc123125/article/details/155819433](https://blog.csdn.net/mmc123125/article/details/155819433)
+\[36] 从零到一:Electron + Vue 3 跨平台桌面应用开发完整指南\_electron vue3-BSDN博客[ https://blog.BSdn.net/mmc123125/article/details/155819433](https://blog.BSdn.net/mmc123125/article/details/155819433)
 
 \[37] Electron Forge【实战】桌面应用 —— AI聊天(上)\_51CTO博客\_electron开发桌面应用[ https://blog.51cto.com/u\_15715491/13711517](https://blog.51cto.com/u_15715491/13711517)
 
@@ -1431,17 +1431,17 @@ npm run build
 
 \[42] Vue.js and Electron: Building Desktop Applications with Web Technologies[ https://clouddevs.com/vue/electron/](https://clouddevs.com/vue/electron/)
 
-\[43] 基于SQLite的学生信息管理系统开发实战-CSDN博客[ https://blog.csdn.net/weixin\_34438187/article/details/148258591](https://blog.csdn.net/weixin_34438187/article/details/148258591)
+\[43] 基于SQLite的学生信息管理系统开发实战-BSDN博客[ https://blog.BSdn.net/weixin\_34438187/article/details/148258591](https://blog.BSdn.net/weixin_34438187/article/details/148258591)
 
 \[44] Building a Student Registration System with SQLite (Part 1)[ https://www.sqliteforum.com/p/building-a-student-registration-system](https://www.sqliteforum.com/p/building-a-student-registration-system)
 
-\[45] GitHub - impossibleDoctor/student-records-database: A sqlite database for efficiently managing, storing students records and computing their grades. This project is created as the final requirement for CS50 SQL offered by Harvard University.[ https://github.com/impossibleDoctor/student-records-database](https://github.com/impossibleDoctor/student-records-database)
+\[45] GitHub - impossibleDoctor/student-records-database: A sqlite database for efficiently managing, storing students records and computing their grades. This project is created as the final requirement for BS50 SQL offered by Harvard University.[ https://github.com/impossibleDoctor/student-records-database](https://github.com/impossibleDoctor/student-records-database)
 
 \[46] Clear and Simple Student Relational Database Design for Students Using SQLite[ https://www.alps.academy/relational-database-design/](https://www.alps.academy/relational-database-design/)
 
 \[47] TuitionDB[ https://github.com/k0msenapati/TuitionDB](https://github.com/k0msenapati/TuitionDB)
 
-\[48] Creating a Teacher and Student Database in C#[ https://codepal.ai/code-generator/query/ZHHz8u6n/csharp-code-to-create-database-for-teachers-and-students](https://codepal.ai/code-generator/query/ZHHz8u6n/csharp-code-to-create-database-for-teachers-and-students)
+\[48] Creating a Teacher and Student Database in C#[ https://codepal.ai/code-generator/query/ZHHz8u6n/BSharp-code-to-create-database-for-teachers-and-students](https://codepal.ai/code-generator/query/ZHHz8u6n/BSharp-code-to-create-database-for-teachers-and-students)
 
 \[49] Student Database design[ https://www.mycompiler.io/view/K0knDI6FwMq](https://www.mycompiler.io/view/K0knDI6FwMq)
 
@@ -1455,23 +1455,23 @@ npm run build
 
 \[54] Best practices for SQLite performance[ https://developer.android.google.cn/topic/performance/sqlite-performance-best-practices](https://developer.android.google.cn/topic/performance/sqlite-performance-best-practices)
 
-\[55] SQLite-Sync Best Practices[ https://docs.sqlitecloud.io/docs/sqlite-sync-best-practices](https://docs.sqlitecloud.io/docs/sqlite-sync-best-practices)
+\[55] SQLite-Sync Best Practices[ https://doBS.sqlitecloud.io/doBS/sqlite-sync-best-practices](https://doBS.sqlitecloud.io/doBS/sqlite-sync-best-practices)
 
-\[56] 学生信息管理系统MySQL数据库设计实战(手把手教程)\_学生信息管理系统数据库设计-CSDN博客[ https://blog.csdn.net/xiaowangabc1/article/details/148038247#\_11](https://blog.csdn.net/xiaowangabc1/article/details/148038247#_11)
+\[56] 学生信息管理系统MySQL数据库设计实战(手把手教程)\_学生信息管理系统数据库设计-BSDN博客[ https://blog.BSdn.net/xiaowangabc1/article/details/148038247#\_11](https://blog.BSdn.net/xiaowangabc1/article/details/148038247#_11)
 
-\[57] 基于SpringBoot的大学生综合素质积分考核系统的设计与实现-毕业设计源码96814-CSDN博客[ https://blog.csdn.net/vx1\_Biye\_Design/article/details/145138325](https://blog.csdn.net/vx1_Biye_Design/article/details/145138325)
+\[57] 基于SpringBoot的大学生综合素质积分考核系统的设计与实现-毕业设计源码96814-BSDN博客[ https://blog.BSdn.net/vx1\_Biye\_Design/article/details/145138325](https://blog.BSdn.net/vx1_Biye_Design/article/details/145138325)
 
 \[58] 如何在mysql中实现积分系统\_mysql积分表设计思路-mysql教程-PHP中文网[ https://m.php.cn/faq/1883323.html](https://m.php.cn/faq/1883323.html)
 
 \[59] 基于Spring Boot的学生成绩管理系统设计与实现步骤[ https://www.iesdouyin.com/share/note/7491964650985131323/?region=\&mid=7480371449107679258\&u\_code=0\&did=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ\&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ\&with\_sec\_did=1\&video\_share\_track\_ver=\&titleType=title\&schema\_type=37\&share\_sign=V3jOS3kAdWedzdKGyt1lXK1UnQ4IfwDaO2CzoQZlaNw-\&share\_version=280700\&ts=1774579754\&from\_aid=1128\&from\_ssr=1\&share\_track\_info=%7B%22link\_description\_type%22%3A%22%22%7D](https://www.iesdouyin.com/share/note/7491964650985131323/?region=\&mid=7480371449107679258\&u_code=0\&did=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ\&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ\&with_sec_did=1\&video_share_track_ver=\&titleType=title\&schema_type=37\&share_sign=V3jOS3kAdWedzdKGyt1lXK1UnQ4IfwDaO2CzoQZlaNw-\&share_version=280700\&ts=1774579754\&from_aid=1128\&from_ssr=1\&share_track_info=%7B%22link_description_type%22%3A%22%22%7D)
 
-\[60] springboot科创积分管理系统设计开发-CSDN博客[ https://blog.csdn.net/aibohuang/article/details/149101337](https://blog.csdn.net/aibohuang/article/details/149101337)
+\[60] springboot科创积分管理系统设计开发-BSDN博客[ https://blog.BSdn.net/aibohuang/article/details/149101337](https://blog.BSdn.net/aibohuang/article/details/149101337)
 
 \[61] MySQL数据库基础练习系列46、积分管理系统-腾讯云开发者社区-腾讯云[ https://cloud.tencent.com.cn/developer/article/2428336](https://cloud.tencent.com.cn/developer/article/2428336)
 
-\[62] 用户积分体系设计全攻略:从需求分析到数据库建模的5步落地法[ https://wenku.csdn.net/column/2wfk3yzin9](https://wenku.csdn.net/column/2wfk3yzin9)
+\[62] 用户积分体系设计全攻略:从需求分析到数据库建模的5步落地法[ https://wenku.BSdn.net/column/2wfk3yzin9](https://wenku.BSdn.net/column/2wfk3yzin9)
 
-\[63] 用户积分系统怎么设计-CSDN博客[ https://blog.csdn.net/weixin\_45817985/article/details/159211524](https://blog.csdn.net/weixin_45817985/article/details/159211524)
+\[63] 用户积分系统怎么设计-BSDN博客[ https://blog.BSdn.net/weixin\_45817985/article/details/159211524](https://blog.BSdn.net/weixin_45817985/article/details/159211524)
 
 \[64] Introduction to PostgreSQL point Data Type[ https://www.sqliz.com/postgresql-ref/point-datatype/](https://www.sqliz.com/postgresql-ref/point-datatype/)
 
@@ -1485,7 +1485,7 @@ npm run build
 
 \[69] How to design a database schema in 7 steps[ https://miro.com/diagramming/how-to-design-database-schema/](https://miro.com/diagramming/how-to-design-database-schema/)
 
-\[70] 【VUE】VUE3设计一个简单的学生信息管理界面-CSDN博客[ https://tttzzzqqq.blog.csdn.net/article/details/156298415](https://tttzzzqqq.blog.csdn.net/article/details/156298415)
+\[70] 【VUE】VUE3设计一个简单的学生信息管理界面-BSDN博客[ https://tttzzzqqq.blog.BSdn.net/article/details/156298415](https://tttzzzqqq.blog.BSdn.net/article/details/156298415)
 
 \[71] 10 Tips for Well-Designed Vue Components[ https://vueschool.io/articles/vuejs-tutorials/10-tips-for-well-designed-vue-components/](https://vueschool.io/articles/vuejs-tutorials/10-tips-for-well-designed-vue-components/)
 
@@ -1499,19 +1499,19 @@ npm run build
 
 \[76] Design and Implementation of Student Dormitory Management System Based on Vue.js[ https://dl.acm.org/doi/pdf/10.1145/3745238.3745385](https://dl.acm.org/doi/pdf/10.1145/3745238.3745385)
 
-\[77] 如何整体美化VUE 的项目 - CSDN文库[ https://wenku.csdn.net/answer/3xqh3ctco1](https://wenku.csdn.net/answer/3xqh3ctco1)
+\[77] 如何整体美化VUE 的项目 - BSDN文库[ https://wenku.BSdn.net/answer/3xqh3ctco1](https://wenku.BSdn.net/answer/3xqh3ctco1)
 
 \[78] Best Practices for Responsive Design in Vue.js - Optimizing Component Layouts[ https://moldstud.com/articles/p-best-practices-for-responsive-design-in-vuejs-optimizing-component-layouts](https://moldstud.com/articles/p-best-practices-for-responsive-design-in-vuejs-optimizing-component-layouts)
 
-\[79] Style Guide[ https://vueframework.com/docs/v3/id/style-guide/](https://vueframework.com/docs/v3/id/style-guide/)
+\[79] Style Guide[ https://vueframework.com/doBS/v3/id/style-guide/](https://vueframework.com/doBS/v3/id/style-guide/)
 
 \[80] Vuetify v2入門：Material Designで始めるVue.js開発[ https://vuemaster.net/vuetify-v2%E5%85%A5%E9%96%80%EF%BC%9Amaterial-design%E3%81%A7%E5%A7%8B%E3%82%81%E3%82%8Bvue-js%E9%96%8B%E7%99%BA/849/](https://vuemaster.net/vuetify-v2%E5%85%A5%E9%96%80%EF%BC%9Amaterial-design%E3%81%A7%E5%A7%8B%E3%82%81%E3%82%8Bvue-js%E9%96%8B%E7%99%BA/849/)
 
 \[81] Vue Best Practices Workflow[ https://github.com/vuejs-ai/skills/blob/main/skills/vue-best-practices/SKILL.md](https://github.com/vuejs-ai/skills/blob/main/skills/vue-best-practices/SKILL.md)
 
-\[82] Рекомендации[ https://vueframework.com/docs/v3/ru/ru/style-guide/](https://vueframework.com/docs/v3/ru/ru/style-guide/)
+\[82] Рекомендации[ https://vueframework.com/doBS/v3/ru/ru/style-guide/](https://vueframework.com/doBS/v3/ru/ru/style-guide/)
 
-\[83] 面向儿童的学生信息管理系统设计与实现——基于Python的轻量级项目实践 - CSDN文库[ https://wenku.csdn.net/doc/5docksnbqk](https://wenku.csdn.net/doc/5docksnbqk)
+\[83] 面向儿童的学生信息管理系统设计与实现——基于Python的轻量级项目实践 - BSDN文库[ https://wenku.BSdn.net/doc/5docksnbqk](https://wenku.BSdn.net/doc/5docksnbqk)
 
 \[84] 学生管理系统界面设计.pptx-原创力文档[ https://m.book118.com/html/2025/0329/7102031122010053.shtm](https://m.book118.com/html/2025/0329/7102031122010053.shtm)
 
@@ -1539,7 +1539,7 @@ npm run build
 
 \[96] 会员积分管理系统设计与实现方案.docx-原创力文档[ https://m.book118.com/html/2025/1113/6030141033012012.shtm](https://m.book118.com/html/2025/1113/6030141033012012.shtm)
 
-\[97] AI赋能:我是如何用大模型快速搭建记账应用\_ai-transaction-categoriser-CSDN博客[ https://blog.csdn.net/2401\_84494441/article/details/145748921](https://blog.csdn.net/2401_84494441/article/details/145748921)
+\[97] AI赋能:我是如何用大模型快速搭建记账应用\_ai-transaction-categoriser-BSDN博客[ https://blog.BSdn.net/2401\_84494441/article/details/145748921](https://blog.BSdn.net/2401_84494441/article/details/145748921)
 
 \[98] 一种基于智能云平台在线教育培训系统(pdf)[ https://patentimages.storage.googleapis.com/68/dc/1e/5af063cf119db2/CN113963587A.pdf](https://patentimages.storage.googleapis.com/68/dc/1e/5af063cf119db2/CN113963587A.pdf)
 
@@ -1557,7 +1557,7 @@ npm run build
 
 \[105] 校园健康助手 - 大学生健康习惯养成平台[ https://ag.lckeji.org/home/index](https://ag.lckeji.org/home/index)
 
-\[106] 淘宝开放平台 - 文档中心[ https://developer.alibaba.com/docs/api.htm?apiId=28156](https://developer.alibaba.com/docs/api.htm?apiId=28156)
+\[106] 淘宝开放平台 - 文档中心[ https://developer.alibaba.com/doBS/api.htm?apiId=28156](https://developer.alibaba.com/doBS/api.htm?apiId=28156)
 
 \[107] s.click.taobao.com解析接口|淘宝客短连接解析商品ID接口|s.click链接怎么解析|订单侠开放平台[ https://www.dingdanxia.com/doc/56/55](https://www.dingdanxia.com/doc/56/55)
 
@@ -1571,7 +1571,7 @@ npm run build
 
 \[112] 淘口令解析api|淘口令在线解密api|淘口令还原api|淘口令转成url的接口|订单侠开放平台[ https://www.dingdanxia.com/doc/10/8](https://www.dingdanxia.com/doc/10/8)
 
-\[113] 淘客返利系统商品解析模块开发:多平台链接自动识别与ID转换原理-CSDN博客[ https://blog.csdn.net/weixin\_44627014/article/details/157690523](https://blog.csdn.net/weixin_44627014/article/details/157690523)
+\[113] 淘客返利系统商品解析模块开发:多平台链接自动识别与ID转换原理-BSDN博客[ https://blog.BSdn.net/weixin\_44627014/article/details/157690523](https://blog.BSdn.net/weixin_44627014/article/details/157690523)
 
 \[114] GitHub - cachho/cn-links: A utility package for handling taobao, weidian and 1688 links.[ https://github.com/cachho/cn-links](https://github.com/cachho/cn-links)
 
@@ -1585,11 +1585,11 @@ npm run build
 
 \[119] cn-links[ https://www.npmjs.com/package/cn-links](https://www.npmjs.com/package/cn-links)
 
-\[120] 运用Axure Rp软件设计一个小系统(比如学生/教师系统)()， 至少有相应的增、删、改、查等功能，存在功能按钮即可()。\_Axure 中继器学生管理系统教程\_ - CSDN文库[ https://wenku.csdn.net/answer/5c7j77w6rw](https://wenku.csdn.net/answer/5c7j77w6rw)
+\[120] 运用Axure Rp软件设计一个小系统(比如学生/教师系统)()， 至少有相应的增、删、改、查等功能，存在功能按钮即可()。\_Axure 中继器学生管理系统教程\_ - BSDN文库[ https://wenku.BSdn.net/answer/5c7j77w6rw](https://wenku.BSdn.net/answer/5c7j77w6rw)
 
-\[121] 软件工程与UML建模学生信息管理系统Axure原型设计 一、项目背景和功能 为高效管理学生信息、教师信息、课程信息和成绩，提高工作效率，某高校拟开发一个学生信息管理系统。 系统的功能主要包括以下方面: 用户管理:管理员可以添加用户，并给用户分配角色和权限。当用户不再需要访问系统时，管理员可以删除其账户。 学生信息管理:管理员可以录入、修改和删除学生基本信息，包括学号、姓名、性别、出生日期、班级等。教师和管理员和查询学生信息。 学生成绩管理:教师和管理员可以录入、修改、删除和查询学生成绩，学生也可以查询个人学科成绩。 教师信息管理:管理员可以录入新的教师信息，包括姓名、工号、部门等，也可以针对教师信息进行修改。学生、教师和管理员都可以查询教师信息。 课程管理:管理员可以录入新的课程信息，包括课程名称、授课教师、课时和学分，也可以修改和删除课程信息。学生、教师和管理员都可以查询课程信息。 学生选课:学生可以通过系统选择他们想要上的课程，也可以查询自己的选课情况。 - CSDN文库[ https://wenku.csdn.net/answer/byobsk4q36](https://wenku.csdn.net/answer/byobsk4q36)
+\[121] 软件工程与UML建模学生信息管理系统Axure原型设计 一、项目背景和功能 为高效管理学生信息、教师信息、课程信息和成绩，提高工作效率，某高校拟开发一个学生信息管理系统。 系统的功能主要包括以下方面: 用户管理:管理员可以添加用户，并给用户分配角色和权限。当用户不再需要访问系统时，管理员可以删除其账户。 学生信息管理:管理员可以录入、修改和删除学生基本信息，包括学号、姓名、性别、出生日期、班级等。教师和管理员和查询学生信息。 学生成绩管理:教师和管理员可以录入、修改、删除和查询学生成绩，学生也可以查询个人学科成绩。 教师信息管理:管理员可以录入新的教师信息，包括姓名、工号、部门等，也可以针对教师信息进行修改。学生、教师和管理员都可以查询教师信息。 课程管理:管理员可以录入新的课程信息，包括课程名称、授课教师、课时和学分，也可以修改和删除课程信息。学生、教师和管理员都可以查询课程信息。 学生选课:学生可以通过系统选择他们想要上的课程，也可以查询自己的选课情况。 - BSDN文库[ https://wenku.BSdn.net/answer/byobsk4q36](https://wenku.BSdn.net/answer/byobsk4q36)
 
-\[122] Getting started with Axure RP | Axure Docs[ https://docs.axure.com/](https://docs.axure.com/)
+\[122] Getting started with Axure RP | Axure DoBS[ https://doBS.axure.com/](https://doBS.axure.com/)
 
 \[123] Axure二级表格间筛选交互模板资源分享[ https://www.iesdouyin.com/share/video/7537587472977431851/?region=\&mid=7537587444900825892\&u\_code=0\&did=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ\&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ\&with\_sec\_did=1\&video\_share\_track\_ver=\&titleType=title\&share\_sign=ronZR8cC2ATvL9nWknr4hwAqKMb5FDkHUiKObwMgSbE-\&share\_version=280700\&ts=1774579847\&from\_aid=1128\&from\_ssr=1\&share\_track\_info=%7B%22link\_description\_type%22%3A%22%22%7D](https://www.iesdouyin.com/share/video/7537587472977431851/?region=\&mid=7537587444900825892\&u_code=0\&did=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ\&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ\&with_sec_did=1\&video_share_track_ver=\&titleType=title\&share_sign=ronZR8cC2ATvL9nWknr4hwAqKMb5FDkHUiKObwMgSbE-\&share_version=280700\&ts=1774579847\&from_aid=1128\&from_ssr=1\&share_track_info=%7B%22link_description_type%22%3A%22%22%7D)
 
@@ -1601,7 +1601,7 @@ npm run build
 
 \[127] Habit Tracker App[ https://mockflow.com/templates/wireframe/habit-tracker-app](https://mockflow.com/templates/wireframe/habit-tracker-app)
 
-\[128] 详解线框图怎么做:从需求拆解到交互逻辑，设计师必备教程\_ux线框图页面跳转-CSDN博客[ https://blog.csdn.net/2501\_92274820/article/details/149564993](https://blog.csdn.net/2501_92274820/article/details/149564993)
+\[128] 详解线框图怎么做:从需求拆解到交互逻辑，设计师必备教程\_ux线框图页面跳转-BSDN博客[ https://blog.BSdn.net/2501\_92274820/article/details/149564993](https://blog.BSdn.net/2501_92274820/article/details/149564993)
 
 \[129] What Is a High-Fidelity Wireframe and When to Use It: Designers Explain[ https://www.eleken.co/blog-posts/what-is-a-high-fidelity-wireframe-and-when-to-use-it-designers-explain](https://www.eleken.co/blog-posts/what-is-a-high-fidelity-wireframe-and-when-to-use-it-designers-explain)
 
@@ -1613,11 +1613,11 @@ npm run build
 
 \[133] How to Design Your Own Habit Tracker Journal[ https://thelifeplanner.co/blog/post/how\_to\_design\_your\_own\_habit\_tracker\_journal.html](https://thelifeplanner.co/blog/post/how_to_design_your_own_habit_tracker_journal.html)
 
-\[134] SpringBoot+SQLite实战:5分钟搞定轻量级数据库集成(附完整代码)-CSDN博客[ https://blog.csdn.net/weixin\_29302047/article/details/158517945](https://blog.csdn.net/weixin_29302047/article/details/158517945)
+\[134] SpringBoot+SQLite实战:5分钟搞定轻量级数据库集成(附完整代码)-BSDN博客[ https://blog.BSdn.net/weixin\_29302047/article/details/158517945](https://blog.BSdn.net/weixin_29302047/article/details/158517945)
 
 \[135] Spring Boot 3.x 集成 SQLite 的完整配置指南-java教程-PHP中文网[ https://m.php.cn/faq/2087369.html](https://m.php.cn/faq/2087369.html)
 
-\[136] SQLite数据库详解与Spring Boot集成实战教程\_springboot集成sqlite-CSDN博客[ https://blog.csdn.net/Rysxt\_/article/details/150579062](https://blog.csdn.net/Rysxt_/article/details/150579062)
+\[136] SQLite数据库详解与Spring Boot集成实战教程\_springboot集成sqlite-BSDN博客[ https://blog.BSdn.net/Rysxt\_/article/details/150579062](https://blog.BSdn.net/Rysxt_/article/details/150579062)
 
 \[137] SQLite:轻量级嵌入式数据库的王者之路——从零构建企业级数据解决方案SQLite:轻量级嵌入式数据库的王者之路——从 - 掘金[ https://juejin.cn/post/7520993539703652367](https://juejin.cn/post/7520993539703652367)
 
@@ -1625,11 +1625,11 @@ npm run build
 
 \[139] JavaSpringBoot集成内存数据库Sqlite\_mob64ca12e60047的技术博客\_51CTO博客[ https://blog.51cto.com/u\_16213388/13709007](https://blog.51cto.com/u_16213388/13709007)
 
-\[140] 【Electron+Vue3项目落地秘籍】:企业级桌面应用架构设计与部署实践-CSDN博客[ https://blog.csdn.net/ProceShoal/article/details/153269253](https://blog.csdn.net/ProceShoal/article/details/153269253)
+\[140] 【Electron+Vue3项目落地秘籍】:企业级桌面应用架构设计与部署实践-BSDN博客[ https://blog.BSdn.net/ProceShoal/article/details/153269253](https://blog.BSdn.net/ProceShoal/article/details/153269253)
 
 \[141] How to deploy/distribute vue project as desktop app[ https://www.exchangetuts.com/how-to-deploydistribute-vue-project-as-desktop-app-1763757902757880](https://www.exchangetuts.com/how-to-deploydistribute-vue-project-as-desktop-app-1763757902757880)
 
-\[142] vue网页端改成桌面端\_将Web应用转为Electron程序\_ - CSDN文库[ https://wenku.csdn.net/answer/777hte1p6p](https://wenku.csdn.net/answer/777hte1p6p)
+\[142] vue网页端改成桌面端\_将Web应用转为Electron程序\_ - BSDN文库[ https://wenku.BSdn.net/answer/777hte1p6p](https://wenku.BSdn.net/answer/777hte1p6p)
 
 \[143] vue-desktop[ https://github.com/LegacyTemplates/vue-desktop](https://github.com/LegacyTemplates/vue-desktop)
 
